@@ -1,0 +1,10 @@
+{
+  "batch-size": 32,
+  "learning-rate": 0.001,
+  "weight-decay": 0,
+  "schedular-step-size": 10,
+  "schedular-gamma": 0.5,
+  "if-schedular": "false",
+  "epochs": 10,
+  "num-workers": 2
+}
