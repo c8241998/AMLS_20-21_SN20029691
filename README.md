@@ -19,20 +19,16 @@ In task A1, with the face landmarks as feature input, we design three classifier
 * matplotlib==3.3.2
 
 ## Code
-* The code of models is in every sub-folders of each task.
-`svm.py` `forest.py` `knn.py` `models.py`
-* We extract face landmarks as feature input in task A1 and A2.
-`landmarks.py`
-Pretrain models:
-`shape_predictor_68_face_landmarks.dat`
-* we train or test our CNN models in task B1 and B2 via:
-`*_CNN_train.py` `*_CNN_test.py`
-Dataset class:
-`dataset.py`
-Configuration of CNN training:
-`config.json`
-* Entrance of our code:
-`main.py`
+* The code of models is in every sub-folders of each task: `svm.py` `forest.py` `knn.py` `models.py`
+* We extract face landmarks as feature input in task A1 and A2: `landmarks.py`
+
+	Pretrain models: `shape_predictor_68_face_landmarks.dat`
+* we train or test our CNN models in task B1 and B2 via: `*_CNN_train.py` `*_CNN_test.py`
+
+	Dataset class: `dataset.py`
+
+	Configuration of CNN training: `config.json`
+* Entrance of our code: `main.py`
 
 ## Running
 	python main.py
