@@ -1,4 +1,4 @@
-# AMLS_20-21_SN20029691
+# AMLS_I_assignment20_21
 
 
 In this assignment, we should solve four image classification tasks under the background of gender detection, emotion detection,  face shape recognition and eye colour recognition. We design different models for each task. 
